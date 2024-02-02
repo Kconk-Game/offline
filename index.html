@@ -1,7 +1,29 @@
-<style>
-  body {
-    background: #25252b;
-    color: #fff
-  }
-</style>
-<h1>How did you end up here ?</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KConk Offline</title>
+    <style>
+        body {
+            background: #25252b;
+            color: #fff
+        }
+
+        :link {
+            color: #1077cc
+        }
+    </style>
+</head>
+<body align="center">
+    <h1>KConk Offline Version</h1>
+    <h2>
+        Thank you for choosing KConk.
+    </h2>
+    <h3>
+        If you want to start playing, either drag the <a
+            href='javascript:(()=>{document.body.style.background="#25252b";let d=prompt("Thank you for using KConk.\nYou are attempting to launch KConk in offline mode.\nTo play, you will first need to download the game source code.\nSelect one of the following mirrors below (or use a custom URL):\n\n0: GitHub (Recommended & Default)\n1: \"matveit.dev\" (Verified mirror)","0")||"0";if(d==="0")d="https://kconk-game.github.io/offline/offlineclient.js";if(d==="1")d="https://gh.matveit.dev/pkgs/corscheck.js";const x=new XMLHttpRequest();x.addEventListener("load",()=>{if(x.status!=200)return alert("Failed to download game source code from "+d);const s=document.createElement("script");s.textContent=x.responseText;document.body.appendChild(s);});x.open("GET",d);x.send()})();'>KConk
+            Launcher</a> to your bookmarks bar or just click the link.
+    </h3>
+</body>
+</html>
